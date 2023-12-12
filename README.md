@@ -16,6 +16,22 @@ Converts a date to its Indonesian word representation. For example, `2019-01-01`
 
 Converts a month to its Indonesian word representation. For example, `01` becomes `Januari`.
 
+### `cekAngkaPrima`
+
+Checks if a number is a prime number. Returns `true` if the number is a prime number, `false` otherwise.
+
+### `cekPalindrome`
+
+Checks if a string is a palindrome. Returns `true` if the string is a palindrome, `false` otherwise.
+
+### `hitungFaktorial`
+
+Calculates the factorial of a number. For example, `5` becomes `120`.
+
+### `stringReverse`
+
+Reverses a string. For example, `Hello World!` becomes `!dlroW olleH`.
+
 ### `to be continued...`
 
 #F1 - 德瓦亚尔
