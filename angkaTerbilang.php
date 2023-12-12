@@ -1,5 +1,7 @@
 <?php
 
+echo terbilang(11);
+
 function terbilang($x)
 {
     $terbilang = ["", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan", "sepuluh", "sebelas"];
@@ -21,28 +23,3 @@ function terbilang($x)
     elseif ($x < 1000000000)
         return terbilang($x / 1000000) . " juta" . terbilang($x % 1000000);
 }
-?>
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Fungsi Terbilang dengan PHP</title>
-</head>
-
-<body>
-    <form action="" method="POST">
-        <input type="text" name="number">
-        <button>Terbilang</button>
-    </form>
-    <hr>
-    <?php
-    if ($_POST) {
-        echo number_format($_POST['number'], 0, ",", ".");
-        echo " (";
-        echo ucwords(terbilang($_POST['number']));
-        echo ")";
-    }
-    ?>
-</body>
-
-</html>

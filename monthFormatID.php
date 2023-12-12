@@ -1,4 +1,7 @@
 <?php
+
+echo bulanTerbilang(01);
+
 function bulanTerbilang($bulan)
 {
     // Array untuk menyimpan nama bulan
@@ -20,19 +23,3 @@ function bulanTerbilang($bulan)
     // Mengembalikan nama bulan
     return $nama[$bulan - 1];
 }
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-
-</body>
-
-</html>
