@@ -1,6 +1,16 @@
-# PHP-FunctionLibrary
+# PHP-Library
 
 A collection of useful PHP functions that I have created over the years. Feel free to use them in your own projects.
+
+## Frameworks
+
+### CodeIgniter 3.1.13 HMVC Starter Pack
+
+For those who are interested in using CodeIgniter 3.1.13 with HMVC (Hierarchical Model-View-Controller) architecture, I have created a starter pack that you can use to kickstart your project. The starter pack includes the following:
+
+- CodeIgniter 3.1.13
+  - HMVC (Hierarchical Model-View-Controller) architecture
+  - Dynamic base URL
 
 ## Functions
 
