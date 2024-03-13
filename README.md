@@ -11,6 +11,7 @@ For those who are interested in using CodeIgniter 3.1.13 with HMVC (Hierarchical
 - CodeIgniter 3.1.13
   - HMVC (Hierarchical Model-View-Controller) architecture
   - Dynamic base URL
+  - Dynamic Environment and Database Configuration
 
 ## Functions
 
